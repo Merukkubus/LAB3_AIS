@@ -5,7 +5,7 @@ namespace ServerApp
 {
     public class Controller
     {
-        char delimiter = ',';
+        char delimiter = '|';
         public string GetAll()
         {
             List<Person> students = new List<Person>();
